@@ -1,26 +1,42 @@
+/* Give the homepage header a background and center its content */
 #main_page_header {
   background-color: mistyrose;
   text-align: center;
 }
 
+/* Align the main headings and make paragraphs readable */
+main h2 {
+  text-align: center;
+}
+
+main p {
+  text-align: left;
+  font-size: 18px;
+}
+
+/* Give the second page header a different background and center its content */
 #holds_page_header {
   background-color: lightblue;
   text-align: center;
 }
 
+/* Increase the size of h3 headings and center them */
 h3 {
   font-size: 30px;
   text-align: center;
 }
 
+/* Set the background color for both pages */
 body {
   background-color: #f2f4f7;
 }
 
+/* Apply a sans-serif font to every element */
 * {
   font-family: sans-serif;
 }
 
+/* Resize images, round their corners, and center them */
 img {
   width: 50%;
   border-radius: 8px;
@@ -28,23 +44,28 @@ img {
   margin: auto;
 }
 
+/* Make text blue on elements with the blue class */
 .blue {
   color: blue;
 }
 
+/* Make text red on elements with the red class */
 .red {
   color: red;
 }
 
+/* Increase the size of the homepage title */
 #title {
   font-size: 40px;
 }
 
+/* Make subheadings bold and set their font size */
 .subheader {
   font-weight: bold;
   font-size: 20px;
 }
 
+/* Style the climbing introduction with a blue background and spacing */
 #climbing_start {
   width: 50%;
   background-color: lightblue;
@@ -53,6 +74,7 @@ img {
   margin: 10px;
 }
 
+/* Style the personal growth section with a yellow background and spacing */
 #climbing_growth {
   width: 50%;
   background-color: lightyellow;
@@ -61,6 +83,7 @@ img {
   margin: 10px;
 }
 
+/* Give navigation containers a green background, padding, and centered text */
 .button {
   background-color: #7eff0d;
   color: rgb(249, 247, 247);
@@ -72,16 +95,19 @@ img {
   margin: 10px;
 }
 
+/* Arrange the technique sections side by side with space between them */
 #techniques {
   display: flex;
   gap: 20px;
 }
 
+/* Give each technique section equal space and allow it to shrink */
 #straight_arms, #heel_hook, #flagging {
   flex: 1;
   min-width: 0;
 }
 
+/* Fill each technique section while keeping the whole photo visible */
 #techniques img {
   width: 100%;
   height: auto;
