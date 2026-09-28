@@ -79,10 +79,10 @@ img {
 
 #straight_arms, #heel_hook, #flagging {
   flex: 1;
+  min-width: 0;
 }
 
 #techniques img {
   width: 100%;
-  height: 250px;
-  object-fit: cover;
+  height: auto;
 }
