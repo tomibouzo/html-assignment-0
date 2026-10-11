@@ -1,7 +1,6 @@
-/* Give the homepage header a background and center its content */
+/* Give the homepage header a background */
 #main_page_header {
   background-color: mistyrose;
-  text-align: center;
 }
 
 /* Align the main headings and make paragraphs readable */
@@ -14,10 +13,9 @@ main p {
   font-size: 18px;
 }
 
-/* Give the second page header a different background and center its content */
+/* Give the second page header a different background */
 #holds_page_header {
   background-color: lightblue;
-  text-align: center;
 }
 
 /* Increase the size of h3 headings and center them */
@@ -67,20 +65,16 @@ img {
 
 /* Style the climbing introduction with a blue background and spacing */
 #climbing_start {
-  width: 50%;
   background-color: lightblue;
   border: 1px solid black;
   padding: 10px;
-  margin: 10px;
 }
 
 /* Style the personal growth section with a yellow background and spacing */
 #climbing_growth {
-  width: 50%;
   background-color: lightyellow;
   border: 1px solid black;
   padding: 10px;
-  margin: 10px;
 }
 
 /* Give navigation containers a green background, padding, and centered text */
